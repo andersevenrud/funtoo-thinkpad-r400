@@ -1,0 +1,4 @@
+=x11-libs/cairo-9999
+=sys-boot/grub-1.99
+=media-libs/mesa-8.1_rc1_pre20120724
+=sys-kernel/gentoo-sources-3.6.1

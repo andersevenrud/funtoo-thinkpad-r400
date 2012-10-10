@@ -1,0 +1,6 @@
+# Default Session
+#XSESSION="twm"
+XSESSION="Xfce4"
+
+# Editor
+#EDITOR="vim"

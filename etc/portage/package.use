@@ -1,0 +1,120 @@
+app-laptop/tp_smapi hdaps
+app-editors/vim cscope vim-pager
+x11-misc/slim branding
+sys-auth/polkit gtk
+sys-auth/pambase gnome-keyring
+net-print/cups gnutls usb
+x11-libs/gtk+ colord
+xfce-base/xfce4-session gnome-keyring
+media-sound/pulseaudio -equalizer gtk libsamplerate realtime gnome
+media-plugins/alsa-plugins libsamplerate speex ffmpeg
+sys-power/pm-utils ntp
+media-libs/libcanberra gstreamer
+#x11-misc/colord gtk
+gnome-base/gvfs archive fuse gnome-keyring samba
+xfce-base/thunar exif
+net-libs/libsoup samba
+net-fs/samba fam syslog
+xfce-base/xfce4-settings libcanberra
+net-misc/ntp samba
+dev-libs/apr-util mysql sqlite openssl
+dev-lang/php apache2 bcmath calendar cgi curlwrappers exif inifile mysql mysqli pcntl pdo -snmp sockets sqlite3 sysvipc xmlreader xmlwriter xsl zip intl gmp imap soap ftp
+app-portage/eix optimization sqlite strong-optimization
+dev-db/mysql latin1 profiling
+x11-terms/xterm Xaw3d
+media-video/ffmpeg aac faac gnutls network openssl sdl speex theora x264 xvid mkv vpx bidi sdl bl bluray vaapi dirac ass libass
+media-libs/libmpeg2 sdl
+net-fs/cifs-utils -caps caps-ng
+sys-libs/pam audit
+net-misc/curl gnutls
+sys-apps/shadow audit
+media-video/mplayer faac libmpeg2 md5sum samba vpx bidi sdl bl bluray vaapi dirac ass libass
+media-video/vlc faac libmpeg2 md5sum samba vpx bidi sdl bl bluray vaapi dirac ass libass a52 aac dts gnutls libsamplerate -libtar mtp optimisememory sdl-image speex taglib theora twolame upnp x264 xv
+sys-libs/zlib minizip
+media-sound/mpg123 sdl
+media-libs/libvpx postproc
+dev-python/cython numpy
+media-libs/libbluray aacs
+virtual/ffmpeg sdl vaapi x264 theora speex
+net-dns/avahi mdnsresponder-compat
+xfce-base/libxfce4ui glade
+xfce-base/libxfcegui glade
+xfce-base/libxfcegui4 glade
+net-dns/avahi gtk gtk3
+x11-themes/gnome-icon-theme branding
+net-misc/dhcpcd zeroconf
+dev-libs/libxml2 icu
+www-client/chromium gnome-keyring
+net-libs/libnice upnp
+net-p2p/transmission gtk lightweight
+net-im/pidgin gnutls prediction
+net-libs/farstream msn upnp
+app-editors/gvim gtk cscope
+media-plugins/gst-plugins-meta a52 aac dts ffmpeg http taglib theora vpx
+x11-libs/vte glade
+media-gfx/gimp lcms svg exif
+media-libs/gegl exif ffmpeg raw sdl svg lensfun
+app-emulation/wine fontconfig gnutls lcms samba xcomposite osmesa
+dev-vcs/gitg glade
+x11-libs/gtksourceview glade
+net-im/skype qt-static
+media-video/handbrake css gtk
+dev-python/imaging lcms
+sys-fs/udev extras
+media-sound/timidity++ ao gtk speex
+media-libs/opencv ffmpeg gstreamer gtk tbb
+dev-util/gtk-doc highlight
+app-misc/geoclue geonames gtk hostip
+net-libs/webkit-gtk coverage webkit2
+dev-java/sun-jre-bin nsplugin
+xfce-extra/tumbler ffmpeg gstreamer raw
+media-libs/libopenraw gtk
+www-client/opera gtk
+net-dialup/ppp  activefilter dhcp gtk eap-tls
+net-wireless/wpa_supplicant gnutls wps fasteap eap-sim
+net-misc/networkmanager gnutls modemmanager -nss resolvconf
+net-misc/openvpn iproute2 passwordsave
+net-misc/ps3mediaserver tsmuxer
+media-gfx/imagemagick lcms pango raw svg
+=sys-kernel/gentoo-sources-3.4.3 symlink
+media-gfx/ufraw gimp gtk
+media-libs/mesa osmesa gbm
+app-portage/layman git mercurial
+x11-base/xorg-server xnest
+media-gfx/inkscape dia lcms postscript inkjar
+dev-lang/python sqlite
+media-libs/libgphoto2 exif gd
+sys-apps/portage python3
+sys-block/gparted fat gtk ntfs
+x11-libs/cairo -cleartype
+media-libs/fontconfig -cleartype
+media-video/ushare dlna
+media-video/fuppes faad notify
+dev-libs/elfutils static-libs
+x11-drivers/xf86-video-intel glamor
+sys-kernel/dracut optimization
+sys-fs/cryptsetup -static
+games-engines/scummvm fluidsynth
+app-emulation/uae scsi sdl
+media-plugins/audacious-plugins aac ffmpeg libsamplerate sdl
+app-arch/p7zip rar wxwidgets
+x11-libs/wxGTK sdl
+media-video/avidemux aac gtk sdl vpx
+dev-java/swt webkit
+media-video/lives libvisual theora -matroska
+media-sound/sox ao ffmpeg id3tag twolame
+media-video/mjpegtools sdl sdlgfx
+media-sound/vorbis-tools speex
+dev-java/oracle-jdk-bin alsa fontconfig
+dev-java/oracle-jre-bin alsa fontconfig
+dev-java/sun-jre-bin alsa fontconfig
+net-im/pidgin gtk
+media-libs/libcanberra gtk
+#www-client/chromium cups custom-cflags
+www-client/chromium cups
+media-sound/sox flac mad ogg
+media-video/sdl-image gif tiff webp
+media-gfx/gimp tiff
+media-libs/lcms tiff
+media-libs/freetype infinality
+app-text/ghostscript-gpl cups

@@ -1,0 +1,9 @@
+>=net-im/skype-4.0.0.7-r2 skype-4.0.0.7-copyright
+
+>=www-plugins/adobe-flash-11.2.202.236 AdobeFlash-10.3
+>=dev-java/sun-jre-bin-1.6.0.33 Oracle-BCLA-JavaSE
+>=app-emulation/virtualbox-bin-4.1.16 PUEL
+>=dev-java/oracle-jre-bin-1.7.0.5 Oracle-BCLA-JavaSE
+>=dev-java/oracle-jdk-bin-1.7.0.5 Oracle-BCLA-JavaSE
+>=app-emulation/virtualbox-additions-4.1.18 PUEL
+>=app-emulation/virtualbox-extpack-oracle-4.1.18 PUEL
