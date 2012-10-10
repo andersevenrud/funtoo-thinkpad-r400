@@ -1,0 +1,5 @@
+Gentoo/Funtoo Linux Configuration for Lenovo Thinkpad R400
+
+Everything works except Fingerprint Scanner module.
+
+Environment is configured for a minimalistic desktop/server running Xfce.
