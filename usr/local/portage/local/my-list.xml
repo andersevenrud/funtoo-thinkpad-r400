@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<layman>
+<!--
+<overlay contact="andersevenrud@gmail.com" name="anderse" src="git://github.com/andersevenrud/anderse-overlay.git" type="git">
+-->
+<overlay contact="andersevenrud@gmail.com" name="anderse" src="file:///home/anti-s/Projects/Gentoo/anderse" type="git">
+        <link>http://anderse.wordpress.com/</link>
+        <description>Anders Evenrud's personal overlay</description>
+</overlay>
+</layman>

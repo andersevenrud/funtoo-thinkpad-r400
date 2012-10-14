@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MC Tekkit
+Comment=Minecraft Tekkit Pack
+Type=Application
+Path=/home/anti-s/Games/Tekkit
+Exec=/home/anti-s/Games/Tekkit/launch
+Icon=minecraft.png
+Terminal=false
+Categories=Game;
+StartupNotify=true
+

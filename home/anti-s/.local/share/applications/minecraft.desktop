@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Minecraft
+Comment=Minecraft
+Type=Application
+Path=/home/anti-s/Games/Minecraft
+Exec=/home/anti-s/Games/Minecraft/launch
+Icon=minecraft.png
+Terminal=false
+Categories=Game;
+StartupNotify=true
+

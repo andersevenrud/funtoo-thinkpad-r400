@@ -1,0 +1,2 @@
+#!/bin/sh
+emerge --sync && layman -S && eix-update $*
