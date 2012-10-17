@@ -4,7 +4,7 @@ x11-misc/slim branding
 sys-auth/polkit gtk
 sys-auth/pambase gnome-keyring
 net-print/cups gnutls usb
-x11-libs/gtk+ colord
+x11-libs/gtk+ colord cups
 xfce-base/xfce4-session gnome-keyring
 media-sound/pulseaudio -equalizer gtk libsamplerate realtime gnome
 media-plugins/alsa-plugins libsamplerate speex ffmpeg
@@ -118,3 +118,4 @@ media-gfx/gimp tiff
 media-libs/lcms tiff
 media-libs/freetype infinality
 app-text/ghostscript-gpl cups
+net-ftp/gftp gtk
