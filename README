@@ -1,6 +1,11 @@
 Gentoo/Funtoo Linux Configuration for Lenovo Thinkpad R400. This should work on Thinkpads with similar hardware as long as flags in make.conf are set correctly.
 
-Environment is configured for a minimalistic desktop/server running Xfce. Boots very fast on a system runnning with an SSD.
+Environment is configured for a minimalistic desktop/server running Xfce. 
+USE flage are set to create a secure and developer-friendly environment.
+Alos includes full support for all common audio/video/gaming needs.
+
+Boots very fast on a system runnning with an SSD. A video here:
+http://www.youtube.com/watch?v=6sRA03dsRIg
 
 Working Hardware:
 - ATA, SCSI and S-ATA devices

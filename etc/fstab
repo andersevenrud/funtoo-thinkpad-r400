@@ -9,15 +9,20 @@
 #
 # <fs>			<mountpoint>	<type>		<opts>		<dump/pass>
 
+# SATA0:0 - SSD
 /dev/sda1		/boot		ext2		noauto,noatime		1 2
+/dev/sda2		/		ext4		noatime,discard		0 1 # discard = TRIM
+
+# SATA0:1 - HDD
 /dev/sdb1		none		swap		sw			0 0
-/dev/sda2		/		ext4		noatime,discard		0 1
 /dev/sdb2		/home		ext4		noatime			0 1
 
+# External / RAM
 tmpfs			/home/portage.tmp	tmpfs		defaults,noatime,noauto 0 0
 tmpfs                   /tmp			tmpfs           defaults,noatime 	0 0
 tmpfs                   /var/tmp		tmpfs           defaults,noatime 	0 0
 tmpfs                   /var/lock		tmpfs           defaults,noatime 	0 0
 tmpfs                   /var/run		tmpfs           defaults,noatime 	0 0
 
+# Network
 #smbfs			/mnt/samba		smbfs		gid=1000,uid=1000	0 0
