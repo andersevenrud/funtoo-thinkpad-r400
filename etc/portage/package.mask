@@ -1,7 +1,7 @@
 =x11-libs/cairo-9999
 =sys-boot/grub-1.99
 =media-libs/mesa-8.1_rc1_pre20120724
-=sys-kernel/gentoo-sources-3.6.1
-=sys-kernel/gentoo-sources-3.6.2
-=sys-kernel/gentoo-sources-3.5.7
-=sys-kernel/gentoo-sources-3.5.6
+<sys-kernel/gentoo-sources-3.6.0
+>sys-kernel/gentoo-sources-3.6.0
+=sys-fs/udisks-1.0.4-r3
+=x11-plugins/pidgin-otr-4.0.0

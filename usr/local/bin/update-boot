@@ -1,0 +1,4 @@
+#!/bin/sh
+mount /boot
+boot-update
+dracut -f --tmpdir /tmptmp

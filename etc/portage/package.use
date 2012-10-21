@@ -80,7 +80,7 @@ media-gfx/imagemagick lcms pango raw svg
 =sys-kernel/gentoo-sources-3.4.3 symlink
 media-gfx/ufraw gimp gtk
 media-libs/mesa osmesa gbm
-app-portage/layman git mercurial
+app-portage/layman git mercurial subversion
 x11-base/xorg-server xnest
 media-gfx/inkscape dia lcms postscript inkjar
 dev-lang/python sqlite
@@ -122,3 +122,6 @@ app-text/ghostscript-gpl cups
 net-ftp/gftp gtk
 media-video/rtmpdump gnutls
 net-libs/libproxy perl -spidermonkey -webkit 
+app-benchmarks/bootchart2 svg
+gnome-base/librsvg gtk tools
+net-libs/neon gnutls libproxy

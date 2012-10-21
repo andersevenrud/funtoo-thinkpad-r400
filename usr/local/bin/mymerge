@@ -1,0 +1,4 @@
+#!/bin/sh
+emerge -DNu --keep-going $* \
+  && prelink -amR \
+  && localepurge
