@@ -1,0 +1,2 @@
+#!/bin/sh
+env GTK2_RC_FILES=/usr/share/themes/MurrezaSilver/gtk-2.0/gtkrc:/home/`whoami`/.gtkrc '/usr/bin/eclipse-bin-4.2'

@@ -125,3 +125,5 @@ net-libs/libproxy perl -spidermonkey -webkit
 app-benchmarks/bootchart2 svg
 gnome-base/librsvg gtk tools
 net-libs/neon gnutls libproxy
+net-analyzer/munin -dhcpd http java mysql ssl syslog -minimal cgi
+net-analyzer/rrdtool perl

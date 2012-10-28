@@ -7,3 +7,4 @@
 >=dev-java/oracle-jdk-bin-1.7.0.5 Oracle-BCLA-JavaSE
 >=app-emulation/virtualbox-additions-4.1.18 PUEL
 >=app-emulation/virtualbox-extpack-oracle-4.1.18 PUEL
+>=dev-java/sun-jdk-1.6.0.37 Oracle-BCLA-JavaSE
