@@ -6,8 +6,8 @@
 # allocated to Eclipse (respectively).
 # Increase those numbers if you get OutOfMemory errors.
 
-ECLIPSE_XMS=128m
-ECLIPSE_XMX=384m
+ECLIPSE_XMS=256m
+ECLIPSE_XMX=512m
 
 # Following variables controls the minimal and maximum amounts of memory
 # allocated to the permanent generation space.
@@ -17,7 +17,7 @@ ECLIPSE_XMX=384m
 # Else you will get crashes related to OutOfMemory in PermGen exceptions. 
 
 ECLIPSE_PERMSIZE=128m
-ECLIPSE_MAX_PERMSIZE=384m
+ECLIPSE_MAX_PERMSIZE=512m
 
-#ECLIPSE_USER_ARGS="-XX:MaxGCPauseMillis=10 -XX:MaxHeapFreeRatio=70 -XX:+UseConcMarkSweepGC -XX:+CMSIncrementalMode -XX:+CMSIncrementalPacing"
-ECLIPSE_USER_ARGS="-XX:MaxGCPauseMillis=10 -XX:MaxHeapFreeRatio=70 -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC "
+ECLIPSE_USER_ARGS="-XgcPrio:deterministic -XX:MaxGCPauseMillis=10 -XX:MaxHeapFreeRatio=70 -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -Xss2m -XX:+UseParallelGC -XX:+UseParNewGC -XX:+CMSConcurrentMTEnabled -XX:ConcGCThreads=2 -XX:ParallelGCThreads=2 -XX:GCTimeRatio=49 -XX:GCPauseIntervalMillis=1000 -XX:+UseCMSCompactAtFullCollection -XX:+CMSClassUnloadingEnabled -XX:+DoEscapeAnalysis -XX:+UseCompressedOops -XX:+AggressiveOpts -XX:+ExplicitGCInvokesConcurrentAndUnloadsClasses -XX:+UseFastAccessorMethods"
+VM_ARGS="-Djava.io.tmpdir=/tmptmp"

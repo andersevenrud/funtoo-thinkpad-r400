@@ -1,0 +1,32 @@
+#!/bin/sh
+STICK_DEVICE="/dev/sdc"
+STICK_PART="/dev/sdc1"
+ISO_FILE="/home/user/windows.iso"
+
+mkdir /mnt/cdrom
+mkdir /mnt/usbstick
+
+umount /mnt/cdrom
+umount /mnt/usbstick
+
+echo "Make sure ${STICK_PART} has NTFS(7)"
+echo "Also make sure it has boot set"
+echo ""
+echo "If not, partition ${STICK_DEVICE}"
+echo "Then clear MBR with:"
+echo "dd if=/dev/zero of=/${STICK_DEVICE} bs=446 count=1"
+echo ""
+echo "Click any key to continue..."
+read
+
+mkfs.ntfs ${STICK_PART} --fast --no-indexing
+
+mount ${STICK_PART} /mnt/usbstick
+mount -o loop,ro ${ISO_FILE} /mnt/cdrom
+
+cp -rfv /mnt/cdrom/* /mnt/usbstick/
+
+umount /mnt/usbstick
+umount /mnt/cdrom
+
+ms-sys --mbr7 ${STICK_DEVICE}

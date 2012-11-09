@@ -79,7 +79,7 @@ net-misc/ps3mediaserver tsmuxer
 media-gfx/imagemagick lcms pango raw svg
 =sys-kernel/gentoo-sources-3.4.3 symlink
 media-gfx/ufraw gimp gtk
-media-libs/mesa osmesa gbm
+media-libs/mesa osmesa gbm openvg
 app-portage/layman git mercurial subversion
 x11-base/xorg-server xnest
 media-gfx/inkscape dia lcms postscript inkjar
@@ -127,3 +127,4 @@ gnome-base/librsvg gtk tools
 net-libs/neon gnutls libproxy
 net-analyzer/munin -dhcpd http java mysql ssl syslog -minimal cgi
 net-analyzer/rrdtool perl
+x11-libs/cairo openvg
