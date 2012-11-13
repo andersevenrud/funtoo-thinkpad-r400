@@ -22,21 +22,21 @@ dev-lang/php apache2 bcmath calendar cgi curlwrappers exif inifile mysql mysqli 
 app-portage/eix optimization sqlite strong-optimization
 dev-db/mysql latin1 profiling
 x11-terms/xterm Xaw3d
-media-video/ffmpeg aac faac gnutls network openssl sdl speex theora x264 xvid mkv vpx bidi sdl bl bluray vaapi dirac ass libass
+media-video/ffmpeg aac faac gnutls network openssl sdl speex theora x264 xvid mkv vpx bidi sdl bl bluray vaapi dirac ass libass aacplus vorbis gsm mp3
 media-libs/libmpeg2 sdl
 net-fs/cifs-utils -caps caps-ng
 sys-libs/pam audit
 net-misc/curl gnutls rtmp ssh
 net-libs/libssh2 gcrypt
 sys-apps/shadow audit
-media-video/mplayer faac libmpeg2 md5sum samba vpx bidi sdl bl bluray vaapi dirac ass libass gif jpeg2k rtmp gsm mad pnm tga
+media-video/mplayer faac libmpeg2 md5sum samba vpx bidi sdl bl bluray vaapi dirac ass libass gif jpeg2k rtmp gsm mad pnm tga aacplus mp3
 media-video/vlc faac libmpeg2 md5sum samba vpx bidi sdl bl bluray vaapi dirac ass libass a52 aac dts gnutls libsamplerate -libtar mtp optimisememory sdl-image speex taglib theora twolame upnp x264 xv dvd mp3 sqlite svg vorbis modplug matroska mpeg ogg flac fontconfig fluidsynth libproxy
 sys-libs/zlib minizip
 media-sound/mpg123 sdl
 media-libs/libvpx postproc
 dev-python/cython numpy
 media-libs/libbluray aacs
-virtual/ffmpeg sdl vaapi x264 theora speex
+virtual/ffmpeg sdl vaapi x264 theora speex aacplus mp3 vorbis
 net-dns/avahi mdnsresponder-compat
 xfce-base/libxfce4ui glade
 xfce-base/libxfcegui glade
@@ -51,11 +51,11 @@ net-p2p/transmission gtk lightweight
 net-im/pidgin gnutls prediction
 net-libs/farstream msn upnp
 app-editors/gvim gtk cscope
-media-plugins/gst-plugins-meta a52 aac dts ffmpeg http taglib theora vpx
+media-plugins/gst-plugins-meta a52 aac dts ffmpeg http taglib theora vpx mp3
 x11-libs/vte glade
-media-gfx/gimp lcms svg exif
+media-gfx/gimp lcms svg exif pdf postscript
 media-libs/gegl exif ffmpeg raw sdl svg lensfun
-app-emulation/wine fontconfig gnutls lcms samba xcomposite osmesa
+app-emulation/wine fontconfig gnutls lcms samba xcomposite osmesa mp3 gsm cups gphoto2
 dev-vcs/gitg glade
 x11-libs/gtksourceview glade
 net-im/skype qt-static
@@ -118,7 +118,7 @@ media-video/sdl-image gif tiff webp
 media-gfx/gimp tiff
 media-libs/lcms tiff
 media-libs/freetype infinality
-app-text/ghostscript-gpl cups
+app-text/ghostscript-gpl cups gtk
 net-ftp/gftp gtk
 media-video/rtmpdump gnutls
 net-libs/libproxy perl -spidermonkey -webkit 
