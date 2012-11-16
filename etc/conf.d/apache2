@@ -33,7 +33,7 @@
 #  SSL_DEFAULT_VHOST  Enables default vhost for SSL (you should enable this
 #                     when you enable SSL)
 #
-APACHE2_OPTS="-D DEFAULT_VHOST -D INFO -D SSL -D SSL_DEFAULT_VHOST -D LANGUAGE -D PHP5"
+APACHE2_OPTS="-D DEFAULT_VHOST -D INFO -D SSL -D SSL_DEFAULT_VHOST -D LANGUAGE -D PHP5 -D WSGI"
 
 # Extended options for advanced uses of Apache ONLY
 # You don't need to edit these unless you are doing crazy Apache stuff
