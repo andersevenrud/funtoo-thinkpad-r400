@@ -6,7 +6,3 @@
 =sys-fs/udisks-1.0.4-r3
 =x11-plugins/pidgin-otr-4.0.0
 >dev-db/mysql-5.2
-=www-client/chromium-24.0.1312.5
-=www-client/chromium-24.0.1312.2
-=www-client/chromium-24.0.1312.1
-=www-client/chromium-23.0.1271.64

@@ -22,15 +22,16 @@ dev-lang/php apache2 bcmath calendar cgi curlwrappers exif inifile mysql mysqli 
 app-portage/eix optimization sqlite strong-optimization
 dev-db/mysql latin1 profiling
 x11-terms/xterm Xaw3d
-media-video/ffmpeg aac faac gnutls network openssl sdl speex theora x264 xvid mkv vpx bidi sdl bl bluray vaapi dirac ass libass aacplus vorbis gsm mp3
+media-video/ffmpeg aac faac gnutls network openssl sdl speex theora x264 xvid mkv vpx bidi sdl bl bluray vaapi dirac ass libass aacplus vorbis gsm mp3 amr avx modplug rtmp schroedinger
 media-libs/libmpeg2 sdl
 net-fs/cifs-utils -caps caps-ng
 sys-libs/pam audit
 net-misc/curl gnutls rtmp ssh
 net-libs/libssh2 gcrypt
 sys-apps/shadow audit
-media-video/mplayer faac libmpeg2 md5sum samba vpx bidi sdl bl bluray vaapi dirac ass libass gif jpeg2k rtmp gsm mad pnm tga aacplus mp3
-media-video/vlc faac libmpeg2 md5sum samba vpx bidi sdl bl bluray vaapi dirac ass libass a52 aac dts gnutls libsamplerate -libtar mtp optimisememory sdl-image speex taglib theora twolame upnp x264 xv dvd mp3 sqlite svg vorbis modplug matroska mpeg ogg flac fontconfig fluidsynth libproxy
+media-video/mplayer faac libmpeg2 md5sum samba vpx bidi sdl bl bluray vaapi dirac ass libass gif jpeg2k rtmp gsm mad pnm tga aacplus mp3 schroedinger amr modplug
+media-video/avidemux amr
+media-video/vlc faac libmpeg2 md5sum samba vpx bidi sdl bl bluray vaapi dirac ass libass a52 aac dts gnutls libsamplerate -libtar mtp optimisememory sdl-image speex taglib theora twolame upnp x264 xv dvd mp3 sqlite svg vorbis modplug matroska mpeg ogg flac fontconfig fluidsynth libproxy schroedinger
 sys-libs/zlib minizip
 media-sound/mpg123 sdl
 media-libs/libvpx postproc
@@ -125,6 +126,8 @@ net-libs/libproxy perl -spidermonkey -webkit
 app-benchmarks/bootchart2 svg
 gnome-base/librsvg gtk tools
 net-libs/neon gnutls libproxy
-net-analyzer/munin -dhcpd http java mysql ssl syslog -minimal cgi
+net-analyzer/munin -dhcpd http java mysql ssl syslog -minimal cgi apache postgres
 net-analyzer/rrdtool perl
 x11-libs/cairo openvg
+sys-devel/gcc gtk objc objc-gc objc++ graphite
+www-plugins/adobe-flash 32bit
