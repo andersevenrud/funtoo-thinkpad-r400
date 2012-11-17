@@ -72,13 +72,19 @@ user root
 [samba]
 env.smbstatus /usr/bin/smbstatus
 
-[df]
-evn.exclude unknown rootfs iso9660 squashfs udf romfs ramfs debugfs tmpfs
+[df_inode]
+#evn.exclude unknown rootfs iso9660 squashfs udf romfs ramfs debugfs tmpfs proc cgroup fusectl fuse.gvfs-fuse-daemon securityfs sysfs binfmt_misc configfs devpts devtmpfs cgroup_root 
+env.include_re /dev/sda2 /dev/sdb2
+env.exclude_re ^/var ^/sys ^/proc ^/home ^/dev ^/run ^/tmp
 env.warning 80
 env.critical 95
 
-[ibm_acpi]
-
+[df]
+#evn.exclude unknown rootfs iso9660 squashfs udf romfs ramfs debugfs tmpfs proc cgroup fusectl fuse.gvfs-fuse-daemon securityfs sysfs binfmt_misc configfs devpts devtmpfs cgroup_root 
+env.include_re /dev/sda2 /dev/sdb2
+env.exclude_re ^/var ^/sys ^/proc ^/home ^/dev ^/run ^/tmp
+env.warning 80
+env.critical 95
 
 # More 3ware examples
 #[hddtemp_smartctl]
