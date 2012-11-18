@@ -61,7 +61,7 @@ env.logfile maillog
 env.mspqueue /var/spool/clientmqueue
 
 [mysql*]
-env.mysqlopts -u root
+env.mysqlopts -u mysql
 
 [exim*]
 group mail
@@ -85,6 +85,10 @@ env.include_re /dev/sda2 /dev/sdb2
 env.exclude_re ^/var ^/sys ^/proc ^/home ^/dev ^/run ^/tmp
 env.warning 80
 env.critical 95
+
+[cupsys_pages]
+logdir /var/log/cups/
+logfile page_log
 
 # More 3ware examples
 #[hddtemp_smartctl]
