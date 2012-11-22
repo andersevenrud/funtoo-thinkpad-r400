@@ -1,4 +1,5 @@
 #!/bin/sh
 emerge -DNu --keep-going $* \
+  && emerge @preserved-rebuild \
   && prelink -amR \
   && localepurge

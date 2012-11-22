@@ -49,13 +49,13 @@ if [ "$1" = "config" ]; then
 	for i in 1 2 3 4 5 6 7 8 9 10 11; do
 		case $i in
 			1)  # CPU
-			TYPE="CPU"
+			TYPE="HDD"
 			;;
 			2)  # Ambient
-			TYPE="Ambient"
+			TYPE="CPU0"
 			;;
 			3)  # HDD
-			TYPE="HDD"
+			TYPE="CPU1"
 			;;
 			4)  # N/A
 			TYPE="NA"
@@ -91,15 +91,15 @@ fi
 	for i in 1 2 3 4 5 6 7 8 9 10 11; do
 		case $i in
 			1)  # CPU
-			TYPE="CPU"
+			TYPE="HDD"
 			VALUE=`echo "$LINE" | awk '{print $1}'`
 			;;
 			2)  # Ambient
-			TYPE="Ambient"
+			TYPE="CPU0"
 			VALUE=`echo "$LINE" | awk '{print $2}'`
 			;;
 			3)  # HDD
-			TYPE="HDD"
+			TYPE="CPU1"
 			VALUE=`echo "$LINE" | awk '{print $3}'`
 			;;
 			4)  # N/A
