@@ -131,3 +131,4 @@ net-analyzer/rrdtool perl
 x11-libs/cairo openvg
 sys-devel/gcc gtk objc objc-gc objc++ graphite
 www-plugins/adobe-flash 32bit
+net-analyzer/nmap ndiff ncat nmap-update
