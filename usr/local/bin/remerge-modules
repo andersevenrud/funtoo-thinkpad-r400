@@ -1,0 +1,2 @@
+#!/bin/sh
+module-rebuild populate && module-rebuild rebuild && emerge @x11-module-rebuild

@@ -1,0 +1,7 @@
+#!/bin/sh
+mount /boot
+make -j3 && make install && make modules_install
+/usr/local/bin/remerge-modules
+dracut -f
+localepurge
+prelink -amR
