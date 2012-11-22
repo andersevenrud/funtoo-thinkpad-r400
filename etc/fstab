@@ -9,15 +9,19 @@
 #
 # <fs>			<mountpoint>	<type>		<opts>		<dump/pass>
 
-# SATA0:0 - SSD
+# sda - SATA0:0 - SSD
+# Device Model:     Corsair CMFSSD-32D1
+# Firmware Version: 2.1
 /dev/sda1		/boot		ext2		noauto,noatime		1 2
 /dev/sda2		/		ext4		noatime,discard		0 1 # discard = TRIM
 
-# SATA0:1 - HDD
+# sdb - SATA0:1 - HDD
+# Device Model:     HITACHI HTS545025B9A300
+# Firmware Version: PB2ZC61H
 /dev/sdb1		none		swap		sw			0 0
 /dev/sdb2		/home		ext4		noatime			0 1
 
-# External / RAM
+# tmpfs - Ram Drives
 tmpfs			/home/portage.tmp	tmpfs		defaults,noatime,noauto 0 0
 tmpfs                   /tmp			tmpfs           defaults,noatime 	0 0
 tmpfs                   /var/tmp		tmpfs           defaults,noatime 	0 0
