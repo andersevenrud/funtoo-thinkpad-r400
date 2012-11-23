@@ -90,6 +90,19 @@ env.critical 95
 logdir /var/log/cups/
 logfile page_log
 
+[apache_*]
+user apache
+group apache
+env.url   http://127.0.0.1:%d/server-status?auto
+env.ports 80
+
+[apache]
+user apache
+group apache
+env.url   http://127.0.0.1:%d/server-status?auto
+env.ports 80
+
+
 # More 3ware examples
 #[hddtemp_smartctl]
 #env.drives twe0_0 twe0_1 hda
