@@ -87,8 +87,8 @@ env.warning 80
 env.critical 95
 
 [cupsys_pages]
-logdir /var/log/cups/
-logfile page_log
+env.logdir /var/log/cups/
+env.logfile page_log
 
 [apache_*]
 user apache
@@ -102,6 +102,40 @@ group apache
 env.url   http://127.0.0.1:%d/server-status?auto
 env.ports 80
 
+[display_brightness]
+user anti-s
+group anti-s
+
+[ibm_acpi]
+env.labels  HDD,CPU0,CPU1,NA,BAT0,NA,BAT1,NA,Unknown1,Unknown2,Unknown3
+
+[ibm_battery_voltage]
+env.design 10800
+env.ulimit 15000
+env.llimit 10000
+env.warning 10550
+env.critical 10400
+
+[battery_voltage]
+env.design 10800
+env.ulimit 15000
+env.llimit 10000
+env.warning 10550
+env.critical 10400
+
+[ibm_battery_capacity]
+env.design 56160
+env.ulimit 60000
+env.llimit 0
+env.warning 28050
+env.critical 11220
+
+[battery_capacity]
+env.design 56160
+env.ulimit 60000
+env.llimit 0
+env.warning 28050
+env.critical 11220
 
 # More 3ware examples
 #[hddtemp_smartctl]
