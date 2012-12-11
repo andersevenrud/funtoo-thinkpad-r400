@@ -18,7 +18,7 @@ net-fs/samba fam syslog
 xfce-base/xfce4-settings libcanberra
 net-misc/ntp samba
 dev-libs/apr-util mysql sqlite openssl
-dev-lang/php apache2 bcmath calendar cgi curlwrappers exif inifile mysql mysqli pcntl pdo -snmp sockets sqlite3 sysvipc xmlreader xmlwriter xsl zip intl gmp imap soap ftp
+dev-lang/php apache2 bcmath calendar cgi curlwrappers exif inifile mysql mysqli pcntl pdo -snmp sockets sqlite3 sysvipc xmlreader xmlwriter xsl zip intl gmp imap soap ftp sqlite sqlite3
 app-portage/eix optimization sqlite strong-optimization
 dev-db/mysql latin1 profiling
 x11-terms/xterm Xaw3d
@@ -61,8 +61,9 @@ dev-vcs/gitg glade
 x11-libs/gtksourceview glade
 net-im/skype qt-static
 media-video/handbrake css gtk
-dev-python/imaging lcms
-sys-fs/udev extras
+dev-python/imaging lcms hwdb
+sys-fs/udev extras gudev keymap hwdb
+virtual/udev extras gudev keymap hwdb
 media-sound/timidity++ ao gtk speex
 media-libs/opencv ffmpeg gstreamer gtk tbb
 dev-util/gtk-doc highlight
@@ -132,3 +133,7 @@ x11-libs/cairo openvg
 sys-devel/gcc gtk objc objc-gc objc++ graphite
 www-plugins/adobe-flash 32bit
 net-analyzer/nmap ndiff ncat nmap-update
+media-libs/sdl-mixer vorbis wav flac fluidsynth mad midi mod mp3 playtools smpeg timidity modplug
+games-strategy/s25rttr glfw
+app-emulation/emul-linux-x86-qtlibs gtkstyle
+media-libs/gst-plugins-base theora
