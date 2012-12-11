@@ -137,3 +137,4 @@ media-libs/sdl-mixer vorbis wav flac fluidsynth mad midi mod mp3 playtools smpeg
 games-strategy/s25rttr glfw
 app-emulation/emul-linux-x86-qtlibs gtkstyle
 media-libs/gst-plugins-base theora
+=sys-kernel/gentoo-sources-3.6.10 symlink
