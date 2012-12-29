@@ -81,7 +81,7 @@ net-misc/ps3mediaserver tsmuxer
 media-gfx/imagemagick lcms pango raw svg
 =sys-kernel/gentoo-sources-3.4.3 symlink
 media-gfx/ufraw gimp gtk
-media-libs/mesa osmesa gbm openvg -classic
+media-libs/mesa osmesa gbm openvg -classic xorg gles2 gles1
 app-portage/layman git mercurial subversion
 x11-base/xorg-server xnest
 media-gfx/inkscape dia lcms postscript inkjar
@@ -138,3 +138,17 @@ games-strategy/s25rttr glfw
 app-emulation/emul-linux-x86-qtlibs gtkstyle
 media-libs/gst-plugins-base theora
 =sys-kernel/gentoo-sources-3.6.10 symlink
+=app-emulation/wine-1.5.19
+dev-libs/poco mysql sqlite
+dev-libs/zziplib sdl
+media-libs/libmng lcms
+dev-games/ogre cg double-precision profile tools tbb ois -poco -examples
+dev-games/cegui bidi gtk ogre tinyxml zip examples devil
+media-libs/devil gif glut lcms openexr sdl
+dev-embedded/arduino examples doc
+dev-embedded/avrdude ftdi
+dev-java/rxtx -lfd
+virtual/python-json external
+gnome-base/gconf gtk
+net-fs/cifs-utils -caps caps-ng
+x11-themes/gnome-themes-standard gtk
